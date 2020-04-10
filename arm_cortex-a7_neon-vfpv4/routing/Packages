@@ -1,0 +1,266 @@
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, ip, librt
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21312
+Filename: ahcpd_0.53-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22173
+SHA256sum: 037e0f10e948e5b60729f9e159965005cd7b9d9cc30fb0f4eb9b696772d2f05d
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: batctl-default
+Version: 2019.2-3
+Depends: libc, libnl-tiny, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40115
+Filename: batctl-default_2019.2-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 41138
+SHA256sum: 593516ada72a8c5c73f24f036c81a2fefcd0f31e78d663c4ff5ab346d5f742a9
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2019.2 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+
+Package: bird1-ipv4-uci
+Version: 0.3-1
+Depends: libc, bird1-ipv4, libuci, uci
+License: GPL-3.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6740
+Filename: bird1-ipv4-uci_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7734
+SHA256sum: acbb97e034b5e4921b64e60183704bb85649aac0b66b569da1eebe51fa860f38
+Description:  bird1-ipv4 UCI integration module
+
+Package: bird1-ipv4
+Version: 1.6.6-1
+Depends: libc, libpthread
+Conflicts: bird4
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 198250
+Filename: bird1-ipv4_1.6.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 199462
+SHA256sum: aaeba9ffdf527863eb1bfa802d7b6c5c67f32c929f765d145e59b24b4069e98a
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is IPv4 version of BIRD, it supports OSPFv2, RIPv2 and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bird1-ipv6-uci
+Version: 0.3-1
+Depends: libc, bird1-ipv6, libuci, uci
+License: GPL-3.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5902
+Filename: bird1-ipv6-uci_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6831
+SHA256sum: d877c7ae55869e7a657c65a34a4150ce865e0aab7e4781f7452ffbc5ea3f27b0
+Description:  bird1-ipv6 UCI integration module
+
+Package: bird1-ipv6
+Version: 1.6.6-1
+Depends: libc, libpthread
+Conflicts: bird6
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 227942
+Filename: bird1-ipv6_1.6.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 228954
+SHA256sum: c5218b2211da9a37bd6315a96ae9a44409a8427d1bcb388806ae238d12fa1a51
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is IPv6 version of BIRD, it supports OSPFv3, RIPng and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bmx6
+Version: r2018020902-5
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 139921
+Filename: bmx6_r2018020902-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 140667
+SHA256sum: 3996a74458e86ebe6dff7793d0a2f19abf891f3de99640391b1d0cfd0a4ef08a
+Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+
+Package: bmx7-json
+Version: r2019030802-1
+Depends: libc, bmx7, libjson-c
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7499
+Filename: bmx7-json_r2019030802-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8303
+SHA256sum: 7df845c6f5c76b308da32f9664b181ecc46acbcc0b82cb6ba52e1c95fea6970c
+Description:  json plugin based on json-c
+
+Package: bmx7
+Version: r2019030802-1
+Depends: libc, zlib, libmbedtls12, libiwinfo20200105
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 171168
+Filename: bmx7_r2019030802-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 172031
+SHA256sum: dcdaafc09a4ae92d43923e75b177d8256ae2954e50f86c78989bfc9da53198f0
+Description:  BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
+
+Package: cjdns
+Version: 20.2-1
+Depends: libc, kmod-tun, libnl-tiny, libpthread, librt, libuci-lua, lua-bencode, dkjson, luasocket, lua-sha2
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 377447
+Filename: cjdns_20.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 377122
+SHA256sum: 8afc3e288f7d522e38ec84cdae82f79309d498da91caa4967eed1b73d2410dbf
+Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: luci-app-bird1-ipv4
+Version: 0.3-1
+Depends: libc, bird1-ipv4-uci, luci-base
+License: GPL-3.0+
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7426
+Filename: luci-app-bird1-ipv4_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8232
+SHA256sum: 91a771a0dade30f2eb0d4ec44e9d46323dbf5a5c78a5d7f916ba63f4923d2839
+Description:  bird4 application for LuCI
+
+Package: luci-app-bird1-ipv6
+Version: 0.3-1
+Depends: libc, bird1-ipv6-uci, luci-base
+License: GPL-3.0+
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7467
+Filename: luci-app-bird1-ipv6_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8265
+SHA256sum: 8105a8902dfd7acfc1859e30e48a8a7cc184870c75efb732f5af614c186d115c
+Description:  bird6 application for LuCI
+
+Package: luci-app-bmx6
+Version: 6
+Depends: libc, luci-lib-json, luci-base, luci-lib-httpclient, bmx6, luci-lib-jquery-1-4, luci-lib-dracula
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30310
+Filename: luci-app-bmx6_6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31134
+SHA256sum: 0e8a78ed15d955dc9455e047d20a365fc97403b6749a1647d484672f42db52c1
+Description:  bmx6 web application (status and configuration) for LuCi web interface
+
+Package: luci-app-bmx7
+Version: 0.1-alpha
+Depends: libc, luci-lib-json, luci-mod-admin-full, bmx7, bmx7-json
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21807
+Filename: luci-app-bmx7_0.1-alpha_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22676
+SHA256sum: 5de18ccf873c8f9572dcbb0ca84ac776c48a93eef43a105c132304a28b124fca
+Description:  LuCI application for web-based configuration and visualization of the BMX7 routing daemon
+
+Package: luci-app-cjdns
+Version: 1.3-6
+Depends: libc, cjdns, luci-base
+License: GPL-3.0
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5373
+Filename: luci-app-cjdns_1.3-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6317
+SHA256sum: e47d19d69c1f10e1f685067a4ebc2177022bc55148b8dc137c5fa86fbff9ffdc
+Description:  This package allows you to configure and inspect cjdns networking using LuCI.
+ 
+ Cjdns implements an encrypted IPv6 network using public-key cryptography
+ for address allocation and a distributed hash table for routing.
+ This provides near-zero-configuration networking, and prevents many
+ of the security and scalability issues that plague existing networks.
+
+Package: luci-app-hnet
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-2
+Depends: libc
+License: GPL-2.0
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 56783
+Filename: luci-app-hnet_2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 57644
+SHA256sum: 158e0e07e28df05cbbe70fff9ec5259acbb305d3aa980f029f69300b644e3538
+Description:  HNCP Homenet configuration and visualization
+
+Package: luci-lib-dracula
+Version: 6
+Depends: libc
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 23289
+Filename: luci-lib-dracula_6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24007
+SHA256sum: 0b380f1b7ef30ee6e6a6df4d03923c5fda11e70c35d8f126b7a6c12c4e23673a
+Description:  dracula graph javascript library
+
+Package: luci-lib-jquery-1-4
+Version: 6
+Depends: libc
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24827
+Filename: luci-lib-jquery-1-4_6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25565
+SHA256sum: ac69b130ffdc0e1a7b0d4de8250aecee9463ea2c6467de964772d0c4d102334d
+Description:  minified javascript jQuery 1.4 library
+
