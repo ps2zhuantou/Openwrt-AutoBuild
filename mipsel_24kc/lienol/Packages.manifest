@@ -1,0 +1,488 @@
+Package: brook
+Version: 20200201-2
+Depends: libc
+Source: feeds/lienol/package/brook
+SourceName: brook
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4052669
+Filename: brook_20200201-2_mipsel_24kc.ipk
+Size: 4044694
+SHA256sum: 26e124d1c9066e62891ba6e8121d0e4f70d6694891b3eab7c3f78d269964f12b
+Description:  Brook is a cross-platform proxy software
+
+Package: chinadns-ng
+Version: 1.0-beta.22-1
+Depends: libc, ipset
+Source: feeds/lienol/package/chinadns-ng
+SourceName: chinadns-ng
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mipsel_24kc
+Installed-Size: 17077
+Filename: chinadns-ng_1.0-beta.22-1_mipsel_24kc.ipk
+Size: 17855
+SHA256sum: d7c6044c64cd1382ab7167e9e297831a9d985df9c31aa410d656106835dc6b4f
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: luci-app-brook-server
+Version: 1-2-20200326
+Depends: libc, brook
+Source: feeds/lienol/lienol/luci-app-brook-server
+SourceName: luci-app-brook-server
+Section: luci
+Architecture: all
+Installed-Size: 7382
+Filename: luci-app-brook-server_1-2-20200326_all.ipk
+Size: 8189
+SHA256sum: aa3a82039523a2231fb793ce961a148850154b026e2a952da09a4f2cde4f27b1
+Description:  LuCI support for Brook Server
+
+Package: luci-app-control-timewol
+Version: 1.0-3-20190309
+Depends: libc, etherwake
+Source: feeds/lienol/others/luci-app-control-timewol
+SourceName: luci-app-control-timewol
+Section: luci
+Architecture: all
+Installed-Size: 2582
+Filename: luci-app-control-timewol_1.0-3-20190309_all.ipk
+Size: 3379
+SHA256sum: 8bb3ffd7a7bc01977fd2126f33218c4fbacbf72f7f4635a1ad50a2fc1220cd8c
+Description:  LuCI support for Timewol From Koolshare
+
+Package: luci-app-control-webrestriction
+Version: 1.0-5-20200107
+Depends: libc
+Source: feeds/lienol/others/luci-app-control-webrestriction
+SourceName: luci-app-control-webrestriction
+Section: luci
+Architecture: all
+Installed-Size: 2912
+Filename: luci-app-control-webrestriction_1.0-5-20200107_all.ipk
+Size: 3708
+SHA256sum: aaaa3f5b0b6fb93e26e24030dc8603d52853d14812a3f20646cf790574745851
+Description:  LuCI support for Webrestriction From Koolshare
+
+Package: luci-app-control-weburl
+Version: 1.0-3-20190309
+Depends: libc, iptables-mod-filter, kmod-ipt-filter
+Source: feeds/lienol/others/luci-app-control-weburl
+SourceName: luci-app-control-weburl
+Section: luci
+Architecture: all
+Installed-Size: 2948
+Filename: luci-app-control-weburl_1.0-3-20190309_all.ipk
+Size: 3765
+SHA256sum: 19dbae7224bfaecfa68d28f27e94a0d625ff78f264838997443f50ec10ccf187
+Description:  LuCI support for Weburl From Koolshare
+
+Package: luci-app-fileassistant
+Version: 1.0-2
+Depends: libc
+Source: feeds/lienol/lienol/luci-app-fileassistant
+SourceName: luci-app-fileassistant
+Section: luci
+Architecture: all
+Installed-Size: 8729
+Filename: luci-app-fileassistant_1.0-2_all.ipk
+Size: 9432
+SHA256sum: f1466fb507e504b4ee7db76da4a431f8535af1819aab76f0edfa2519ff50d13f
+Description:  LuCI support for Fileassistant
+
+Package: luci-app-filebrowser
+Version: 1.1-1
+Depends: libc
+Source: feeds/lienol/lienol/luci-app-filebrowser
+SourceName: luci-app-filebrowser
+Section: luci
+Architecture: all
+Installed-Size: 6387
+Filename: luci-app-filebrowser_1.1-1_all.ipk
+Size: 7158
+SHA256sum: 356b17ab48b0dc298d5a8241aa3511505163a371197954aef8429e2d53c38e26
+Description:  LuCI support for FileBrowser
+
+Package: luci-app-ipsec-vpnserver-manyusers
+Version: 1-6-20200402
+Depends: libc, strongswan, strongswan-minimal, strongswan-mod-xauth-generic
+Source: feeds/lienol/lienol/luci-app-ipsec-vpnserver-manyusers
+SourceName: luci-app-ipsec-vpnserver-manyusers
+Section: luci
+Architecture: all
+Installed-Size: 3454
+Filename: luci-app-ipsec-vpnserver-manyusers_1-6-20200402_all.ipk
+Size: 4257
+SHA256sum: 2ff3a67c43504c243573ab44173f38aac06b89d547605a09865def163f0e781b
+Description:  LuCI support for IPSec VPN Server
+
+Package: luci-app-kcptun
+Version: 1.4.5-1
+Depends: libc, jshn, wget, luci-lib-jsonc
+Source: feeds/lienol/others/luci-app-kcptun
+SourceName: luci-app-kcptun
+License: Apache-2.0
+Section: luci
+Maintainer: Xingwang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 11213
+Filename: luci-app-kcptun_1.4.5-1_all.ipk
+Size: 12116
+SHA256sum: 7cd7589adb402fda5986539af3689eac5a390cc9ab29a3b6f795ddbce8ce87c2
+Description:  LuCI support for Kcptun
+
+Package: luci-app-passwall
+Version: 3.6-39
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, wget, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, shadowsocks-libev-ss-redir, shadowsocksr-libev-alt, shadowsocks-libev-ss-local, shadowsocksr-libev-ssr-local, pdnsd-alt
+Source: feeds/lienol/lienol/luci-app-passwall
+SourceName: luci-app-passwall
+Section: opt
+Architecture: all
+Installed-Size: 671742
+Filename: luci-app-passwall_3.6-39_all.ipk
+Size: 672035
+SHA256sum: 58f3c9d054463ffa6f6313a1133a5dc69ec3e19b629d527ed755279cd63f0e1d
+Description:  LuCI support for PassWall
+
+Package: luci-app-pppoe-server
+Version: 1-8-20200326
+Depends: libc, rp-pppoe-common, rp-pppoe-server
+Source: feeds/lienol/lienol/luci-app-pppoe-server
+SourceName: luci-app-pppoe-server
+Section: luci
+Architecture: all
+Installed-Size: 4069
+Filename: luci-app-pppoe-server_1-8-20200326_all.ipk
+Size: 4905
+SHA256sum: c9cd54afddca4c5d8624e57c7d84ad96cfdfe1caa5209afbc3239bb90eab6fb9
+Description:  LuCI support for PPPoE Server
+
+Package: luci-app-pptp-vpnserver-manyusers
+Version: 1-2-20200326
+Depends: libc, pptpd, kmod-mppe, ppp
+Source: feeds/lienol/lienol/luci-app-pptp-vpnserver-manyusers
+SourceName: luci-app-pptp-vpnserver-manyusers
+Section: luci
+Architecture: all
+Installed-Size: 4071
+Filename: luci-app-pptp-vpnserver-manyusers_1-2-20200326_all.ipk
+Size: 4860
+SHA256sum: c71ddea4c0ef1fec612f7c809bc1cc6bd0531b8edb1079be0dfdbe9f0aecd92f
+Description:  LuCI support for PPTP VPN Server
+
+Package: luci-app-ssr-libev-server
+Version: 1-8-20200326
+Depends: libc, libsodium, shadowsocksr-libev-server
+Source: feeds/lienol/lienol/luci-app-ssr-libev-server
+SourceName: luci-app-ssr-libev-server
+Section: luci
+Architecture: all
+Installed-Size: 3654
+Filename: luci-app-ssr-libev-server_1-8-20200326_all.ipk
+Size: 4441
+SHA256sum: 72b41e1d2c104af5892bdd6e0989e1674fffce7baac546c13bd6e7b7c6f5ba11
+Description:  LuCI support for SSR Libev Server
+
+Package: luci-app-ssr-python-pro-server
+Version: 2-1-20200326
+Depends: libc, libsodium, luci-lib-jsonc, python
+Source: feeds/lienol/lienol/luci-app-ssr-python-pro-server
+SourceName: luci-app-ssr-python-pro-server
+Section: luci
+Architecture: all
+Installed-Size: 199026
+Filename: luci-app-ssr-python-pro-server_2-1-20200326_all.ipk
+Size: 199809
+SHA256sum: 5cec703e8e9c25560bf827ce16d203f666bbb45704d874a10b7610c082e8b2c9
+Description:  LuCI support for SSR Python Pro Server
+
+Package: luci-app-syncthing
+Version: 1.0-2
+Depends: libc, syncthing
+Source: feeds/lienol/others/luci-app-syncthing
+SourceName: luci-app-syncthing
+Section: luci
+Architecture: all
+Installed-Size: 1832
+Filename: luci-app-syncthing_1.0-2_all.ipk
+Size: 2586
+SHA256sum: 98d939d8779377c743ff71fbbfa5d359c2ae46099418775d87fc8bab7a5fbfe2
+Description:  LuCI support for syncthing
+
+Package: luci-app-timecontrol
+Version: 1.0-1-20200402
+Depends: libc
+Source: feeds/lienol/lienol/luci-app-timecontrol
+SourceName: luci-app-timecontrol
+Section: luci
+Architecture: all
+Installed-Size: 2574
+Filename: luci-app-timecontrol_1.0-1-20200402_all.ipk
+Size: 3348
+SHA256sum: 2c557aeececf045b2a20a26b2fcade03b830edd68699aac38b3c152eec7ab5b7
+Description:  LuCI support for Time Control
+
+Package: luci-app-trojan-server
+Version: 1-3-20200326
+Depends: libc, luci-lib-jsonc, trojan
+Source: feeds/lienol/lienol/luci-app-trojan-server
+SourceName: luci-app-trojan-server
+Section: luci
+Architecture: all
+Installed-Size: 4730
+Filename: luci-app-trojan-server_1-3-20200326_all.ipk
+Size: 5518
+SHA256sum: 07555a55921c21d3f3973e388540083e148de299ead162c8b86018aba8c384ca
+Description:  LuCI support for Trojan Server
+
+Package: luci-i18n-brook-server-zh-cn
+Version: 1-2-20200326
+Depends: libc, luci-app-brook-server
+Source: feeds/lienol/lienol/luci-app-brook-server
+SourceName: luci-i18n-brook-server-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1307
+Filename: luci-i18n-brook-server-zh-cn_1-2-20200326_all.ipk
+Size: 2141
+SHA256sum: f55086e4a45c615efdae686d3fc865b6daec211906a5544c16a8daaf0e8d46ca
+Description:  Translation for luci-app-brook-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-control-timewol-zh-cn
+Version: 1.0-3-20190309
+Depends: libc, luci-app-control-timewol
+Source: feeds/lienol/others/luci-app-control-timewol
+SourceName: luci-i18n-control-timewol-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 419
+Filename: luci-i18n-control-timewol-zh-cn_1.0-3-20190309_all.ipk
+Size: 1242
+SHA256sum: 501e1de988b660a971bfa4a1903085a5b8f68a1121a2ce70f236d2f2fcc6357f
+Description:  Translation for luci-app-control-timewol - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-control-webrestriction-zh-cn
+Version: 1.0-5-20200107
+Depends: libc, luci-app-control-webrestriction
+Source: feeds/lienol/others/luci-app-control-webrestriction
+SourceName: luci-i18n-control-webrestriction-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 426
+Filename: luci-i18n-control-webrestriction-zh-cn_1.0-5-20200107_all.ipk
+Size: 1257
+SHA256sum: 3ffd8d77263fabb19fb9540fe58fdc5b093bc185f676032d9f6dad81d7f952c2
+Description:  Translation for luci-app-control-webrestriction - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-control-weburl-zh-cn
+Version: 1.0-3-20190309
+Depends: libc, luci-app-control-weburl
+Source: feeds/lienol/others/luci-app-control-weburl
+SourceName: luci-i18n-control-weburl-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 419
+Filename: luci-i18n-control-weburl-zh-cn_1.0-3-20190309_all.ipk
+Size: 1238
+SHA256sum: 03a045bad3091494bbed3564ff4a72d720112b9a7362da761972696f590758fd
+Description:  Translation for luci-app-control-weburl - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-filebrowser-zh-cn
+Version: 1.1-1
+Depends: libc, luci-app-filebrowser
+Source: feeds/lienol/lienol/luci-app-filebrowser
+SourceName: luci-i18n-filebrowser-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1704
+Filename: luci-i18n-filebrowser-zh-cn_1.1-1_all.ipk
+Size: 2531
+SHA256sum: ce3858004d9db1ce8c057bb01f6d63cda28654f5d9d2f1d1a2a43bd48078dbfd
+Description:  Translation for luci-app-filebrowser - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ipsec-vpnserver-manyusers-zh-cn
+Version: 1-6-20200402
+Depends: libc, luci-app-ipsec-vpnserver-manyusers
+Source: feeds/lienol/lienol/luci-app-ipsec-vpnserver-manyusers
+SourceName: luci-i18n-ipsec-vpnserver-manyusers-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 982
+Filename: luci-i18n-ipsec-vpnserver-manyusers-zh-cn_1-6-20200402_all.ipk
+Size: 1825
+SHA256sum: 3b3875c811921e046e3f4c0b96473f055516f3074702add19daa0aab1dacef6d
+Description:  Translation for luci-app-ipsec-vpnserver-manyusers - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-kcptun-zh-cn
+Version: 1.4.5-1
+Depends: libc, luci-app-kcptun
+Source: feeds/lienol/others/luci-app-kcptun
+SourceName: luci-i18n-kcptun-zh-cn
+License: Apache-2.0
+Section: luci
+Maintainer: Xingwang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 2855
+Filename: luci-i18n-kcptun-zh-cn_1.4.5-1_all.ipk
+Size: 3689
+SHA256sum: 2580ced812879b00daab4537214c51adf300e43eaab80520b6bf64245466a554
+Description:  Translation for luci-app-kcptun - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-pppoe-server-zh-cn
+Version: 1-8-20200326
+Depends: libc, luci-app-pppoe-server
+Source: feeds/lienol/lienol/luci-app-pppoe-server
+SourceName: luci-i18n-pppoe-server-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1392
+Filename: luci-i18n-pppoe-server-zh-cn_1-8-20200326_all.ipk
+Size: 2223
+SHA256sum: fb75f1f954375f171a4a1c8785ed39bf9fa609b35f2806145b32909efc9d3a57
+Description:  Translation for luci-app-pppoe-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-pptp-vpnserver-manyusers-zh-cn
+Version: 1-2-20200326
+Depends: libc, luci-app-pptp-vpnserver-manyusers
+Source: feeds/lienol/lienol/luci-app-pptp-vpnserver-manyusers
+SourceName: luci-i18n-pptp-vpnserver-manyusers-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1237
+Filename: luci-i18n-pptp-vpnserver-manyusers-zh-cn_1-2-20200326_all.ipk
+Size: 2075
+SHA256sum: 919c9131f818390eed05923cac130ae825669f21fc9bc2a592c450f63fa3b639
+Description:  Translation for luci-app-pptp-vpnserver-manyusers - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-libev-server-zh-cn
+Version: 1-8-20200326
+Depends: libc, luci-app-ssr-libev-server
+Source: feeds/lienol/lienol/luci-app-ssr-libev-server
+SourceName: luci-i18n-ssr-libev-server-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 927
+Filename: luci-i18n-ssr-libev-server-zh-cn_1-8-20200326_all.ipk
+Size: 1759
+SHA256sum: 47455d63e5449868dc98d52161143db563bcc6bf1fdd6c802e7c91eddc9e868d
+Description:  Translation for luci-app-ssr-libev-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-python-pro-server-zh-cn
+Version: 2-1-20200326
+Depends: libc, luci-app-ssr-python-pro-server
+Source: feeds/lienol/lienol/luci-app-ssr-python-pro-server
+SourceName: luci-i18n-ssr-python-pro-server-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 2023
+Filename: luci-i18n-ssr-python-pro-server-zh-cn_2-1-20200326_all.ipk
+Size: 2862
+SHA256sum: 40ada4929789c8512db27ab8897e32ca02f5e4acd5205c0d7f87b169b3710934
+Description:  Translation for luci-app-ssr-python-pro-server - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-syncthing-zh-cn
+Version: 1.0-2
+Depends: libc, luci-app-syncthing
+Source: feeds/lienol/others/luci-app-syncthing
+SourceName: luci-i18n-syncthing-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 453
+Filename: luci-i18n-syncthing-zh-cn_1.0-2_all.ipk
+Size: 1264
+SHA256sum: b7869bc2171b2deee4db48ec8567d9418b539e3e7fe7c304635e60430e7a42bd
+Description:  Translation for luci-app-syncthing - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-timecontrol-zh-cn
+Version: 1.0-1-20200402
+Depends: libc, luci-app-timecontrol
+Source: feeds/lienol/lienol/luci-app-timecontrol
+SourceName: luci-i18n-timecontrol-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 723
+Filename: luci-i18n-timecontrol-zh-cn_1.0-1-20200402_all.ipk
+Size: 1539
+SHA256sum: c5312e8162f8541bd1831329d8ef3d87700f066f41695b777f8d70bd4c329e09
+Description:  Translation for luci-app-timecontrol - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-trojan-server-zh-cn
+Version: 1-3-20200326
+Depends: libc, luci-app-trojan-server
+Source: feeds/lienol/lienol/luci-app-trojan-server
+SourceName: luci-i18n-trojan-server-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1025
+Filename: luci-i18n-trojan-server-zh-cn_1-3-20200326_all.ipk
+Size: 1858
+SHA256sum: 97962a6f5ac3279cde4c4512d1d83769544448e568db705b67c0d1fa6afe258c
+Description:  Translation for luci-app-trojan-server - 简体中文 (Simplified Chinese)
+
+Package: luci-theme-argon-dark-mod
+Version: 1.4-02-20200101
+Depends: libc
+Source: feeds/lienol/lienol/luci-theme-argon-dark-mod
+SourceName: luci-theme-argon-dark-mod
+Section: luci
+Architecture: all
+Installed-Size: 149411
+Filename: luci-theme-argon-dark-mod_1.4-02-20200101_all.ipk
+Size: 150004
+SHA256sum: 8395acba8508564e0ae53d782272857440c59fdef14fcae563489a7279a8ce47
+Description:  Argon Dark Mod Theme
+
+Package: luci-theme-argon-light-mod
+Version: 1.4-03-20200101
+Depends: libc
+Source: feeds/lienol/lienol/luci-theme-argon-light-mod
+SourceName: luci-theme-argon-light-mod
+Section: luci
+Architecture: all
+Installed-Size: 1520290
+Filename: luci-theme-argon-light-mod_1.4-03-20200101_all.ipk
+Size: 1520510
+SHA256sum: 0fc08b56ec9a9e61b94ca514c044c5ff50dd469aaca99206685298c234faf62e
+Description:  Argon Light Mod Theme
+
+Package: luci-theme-bootstrap-mod
+Version: 1.4-20200314
+Depends: libc
+Source: feeds/lienol/lienol/luci-theme-bootstrap-mod
+SourceName: luci-theme-bootstrap-mod
+Section: luci
+Architecture: all
+Installed-Size: 192317
+Filename: luci-theme-bootstrap-mod_1.4-20200314_all.ipk
+Size: 193158
+SHA256sum: 341e1dc07d55815d6eec84466e3fd78ae7486ddd344cee9cfdec941eed06b9b5
+Description:  Bootstrap Mod Theme By Lienol
+
+Package: syncthing
+Version: v1.4.0-2
+Depends: libc
+Source: feeds/lienol/package/syncthing
+SourceName: syncthing
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 7638382
+Filename: syncthing_v1.4.0-2_mipsel_24kc.ipk
+Size: 7626451
+SHA256sum: daba1229d7d63bc112212495b2c84bb350ce89c2a5f79b2b4073c02941d617a9
+Description:  Syncthing is a continuous file synchronization program.
+
+Package: tcping
+Version: 0.1-2
+Depends: libc
+Source: feeds/lienol/package/tcping
+SourceName: tcping
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3384
+Filename: tcping_0.1-2_mipsel_24kc.ipk
+Size: 4053
+SHA256sum: 93e35b011bb5200f91839d6848b51066d81856e02ff6dd5a1b73b7e244860566
+Description:  tcping measures the latency of a tcp-connection
+
